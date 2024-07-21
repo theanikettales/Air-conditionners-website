@@ -1,0 +1,65 @@
+/*css reset */
+*{
+    background-color: rgb(92, 92, 214);
+    margin: 0;
+    padding: 0;
+}
+ 
+/* CSS Varibles */
+:root{
+    --navbar-height: 60px;
+}
+
+/* Navigation baar */
+nav{
+    
+    display: flex;
+    align-items: center;
+}
+/*Navigation baar Logo and image */
+#logo{
+    margin: 10px 35px;
+
+}
+#logo img{
+    height: 56px;
+    margin: 3px 6px;
+} 
+
+/*Navigation baar List Styling */
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
