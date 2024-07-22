@@ -119,6 +119,7 @@ html{
 } 
 
 #client-section{ 
+    text-align: center;
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
