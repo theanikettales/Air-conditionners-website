@@ -98,6 +98,12 @@ html{
     background-color: rgb(43, 129, 179);
 }
 
+#services ul li{
+    text-align: center;
+    display: flex;
+
+}
+
 #services .box{ 
     border: 2px solid black;
     padding: 34px;
